@@ -1,0 +1,72 @@
+[
+    {
+        "return_id": "RT00001",
+        "borrow_id": "BR00003",
+        "reader_id": "DG00067",
+        "return_date": "2025-05-21T17:23:41.779554",
+        "documents": [
+            "TL001"
+        ],
+        "total_fine": 0
+    },
+    {
+        "return_id": "RT00002",
+        "borrow_id": "BR00003",
+        "reader_id": "DG00067",
+        "return_date": "2025-05-21T17:35:22.502970",
+        "documents": [
+            "TL004"
+        ],
+        "total_fine": 0
+    },
+    {
+        "return_id": "RT00003",
+        "borrow_id": "BR00004",
+        "reader_id": "DG00065",
+        "return_date": "2025-05-30",
+        "documents": [
+            "TL026"
+        ],
+        "total_fine": 0
+    },
+    {
+        "return_id": "RT00004",
+        "borrow_id": "BR00005",
+        "reader_id": "DG00065",
+        "return_date": "2025-05-30",
+        "documents": [
+            "TL021"
+        ],
+        "total_fine": 0
+    },
+    {
+        "return_id": "RT00005",
+        "borrow_id": "BR00006",
+        "reader_id": "DG00013",
+        "return_date": "2025-06-13",
+        "documents": [
+            "TL033"
+        ],
+        "total_fine": 0
+    },
+    {
+        "return_id": "RT00006",
+        "borrow_id": "BR00007",
+        "reader_id": "DG00067",
+        "return_date": "2025-06-13",
+        "documents": [
+            "TL021"
+        ],
+        "total_fine": 0
+    },
+    {
+        "return_id": "RT00007",
+        "borrow_id": "BR00008",
+        "reader_id": "DG00061",
+        "return_date": "2025-06-17",
+        "documents": [
+            "TL021"
+        ],
+        "total_fine": 0
+    }
+]

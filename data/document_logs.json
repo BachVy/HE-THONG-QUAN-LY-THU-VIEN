@@ -1,0 +1,218 @@
+[
+    {
+        "timestamp": "2025-04-23T16:05:02.619701",
+        "action": "restore",
+        "doc_id": "TL001",
+        "details": "Khôi phục tài liệu: NHẬP MÔN LẬP TRÌNH"
+    },
+    {
+        "timestamp": "2025-04-23T16:55:30.371466",
+        "action": "update",
+        "doc_id": "TL001",
+        "details": "Cập nhật tài liệu: NHẬP MÔN LẬP TRÌNH - Thay đổi: DacBiet: False"
+    },
+    {
+        "timestamp": "2025-04-23T16:56:15.020703",
+        "action": "update",
+        "doc_id": "TL001",
+        "details": "Cập nhật tài liệu: NHẬP MÔN LẬP TRÌNH - Thay đổi: SoLuong: 40, DacBiet: False"
+    },
+    {
+        "timestamp": "2025-05-06T12:48:53.122196",
+        "action": "add",
+        "doc_id": "TL031",
+        "details": "Thêm tài liệu: python"
+    },
+    {
+        "timestamp": "2025-05-06T14:01:05.489179",
+        "action": "request",
+        "doc_id": "",
+        "details": "Yêu cầu tài liệu mới: TL031 bởi độc giả DG00067"
+    },
+    {
+        "timestamp": "2025-05-06T14:02:58.242603",
+        "action": "update",
+        "doc_id": "TL031",
+        "details": "Cập nhật tài liệu: lập trình Python - Thay đổi: title: lập trình Python, SoLuong: 25, DacBiet: True"
+    },
+    {
+        "timestamp": "2025-05-06T14:03:47.556354",
+        "action": "get_document_details",
+        "doc_id": "TL032",
+        "details": "Không tìm thấy tài liệu với doc_id: TL032"
+    },
+    {
+        "timestamp": "2025-05-06T14:03:59.079391",
+        "action": "delete",
+        "doc_id": "TL031",
+        "details": "Xóa tài liệu: lập trình Python"
+    },
+    {
+        "timestamp": "2025-05-06T14:06:10.329593",
+        "action": "restore",
+        "doc_id": "TL031",
+        "details": "Khôi phục tài liệu: lập trình Python"
+    },
+    {
+        "timestamp": "2025-05-06T14:06:31.941178",
+        "action": "delete",
+        "doc_id": "TL031",
+        "details": "Xóa tài liệu: lập trình Python"
+    },
+    {
+        "timestamp": "2025-05-21T17:25:25.410946",
+        "action": "get_document_details",
+        "doc_id": "TL005",
+        "details": "Tài liệu TL005 đã bị xóa, không thể truy cập"
+    },
+    {
+        "timestamp": "2025-05-21T17:26:09.941962",
+        "action": "update",
+        "doc_id": "TL001",
+        "details": "Cập nhật tài liệu: NGUYÊN LÍ NGÔN NGỮ LẬP TRÌNH - Thay đổi: title: NGUYÊN LÍ NGÔN NGỮ LẬP TRÌNH, category: SÁCH, SoLuong: 50, DacBiet: False"
+    },
+    {
+        "timestamp": "2025-06-01T14:07:20.895472",
+        "action": "get_document_details",
+        "doc_id": "TL032",
+        "details": "Tài liệu TL032 đã bị xóa, không thể truy cập"
+    },
+    {
+        "timestamp": "2025-06-01T14:07:40.042370",
+        "action": "update",
+        "doc_id": "TL030",
+        "details": "Cập nhật tài liệu: 10 Điều Khác Biệt Nhất Giữa Kẻ Làm Chủ và Người Làm Thuê - Thay đổi: AvailableQuantity: 9"
+    },
+    {
+        "timestamp": "2025-06-01T14:11:50.761509",
+        "action": "update",
+        "doc_id": "TL030",
+        "details": "Cập nhật tài liệu: 10 Điều Khác Biệt Nhất Giữa Kẻ Làm Chủ và Người Làm Thuê - Thay đổi: category: tạp chí"
+    },
+    {
+        "timestamp": "2025-06-01T14:18:30.984558",
+        "action": "restore",
+        "doc_id": "TL032",
+        "details": "Khôi phục tài liệu: CSDL"
+    },
+    {
+        "timestamp": "2025-06-13T11:40:11.380129",
+        "action": "add",
+        "doc_id": "TL033",
+        "details": "Thêm tài liệu: TH CSDL"
+    },
+    {
+        "timestamp": "2025-06-13T11:40:52.873667",
+        "action": "delete",
+        "doc_id": "TL033",
+        "details": "Xóa tài liệu: TH CSDL"
+    },
+    {
+        "timestamp": "2025-06-13T11:40:54.275697",
+        "action": "get_document_details",
+        "doc_id": "TL033",
+        "details": "Tài liệu TL033 đã bị xóa, không thể truy cập"
+    },
+    {
+        "timestamp": "2025-06-13T11:41:54.035407",
+        "action": "restore",
+        "doc_id": "TL033",
+        "details": "Khôi phục tài liệu: TH CSDL"
+    },
+    {
+        "timestamp": "2025-06-13T20:20:06.202512",
+        "action": "add",
+        "doc_id": "TL034",
+        "details": "Thêm tài liệu: Lập trình Web"
+    },
+    {
+        "timestamp": "2025-06-13T20:38:34.304089",
+        "action": "delete",
+        "doc_id": "TL034",
+        "details": "Xóa tài liệu: LẬP TRÌNH WEB"
+    },
+    {
+        "timestamp": "2025-06-13T20:38:35.559109",
+        "action": "get_document_details",
+        "doc_id": "TL034",
+        "details": "Tài liệu TL034 đã bị xóa, không thể truy cập"
+    },
+    {
+        "timestamp": "2025-06-13T20:38:36.815764",
+        "action": "get_document_details",
+        "doc_id": "TL034",
+        "details": "Tài liệu TL034 đã bị xóa, không thể truy cập"
+    },
+    {
+        "timestamp": "2025-06-13T20:44:22.553480",
+        "action": "get_document_details",
+        "doc_id": "TL034",
+        "details": "Tài liệu TL034 đã bị xóa, không thể truy cập"
+    },
+    {
+        "timestamp": "2025-06-13T20:45:22.953369",
+        "action": "update",
+        "doc_id": "TL033",
+        "details": "Cập nhật tài liệu: TH CSDL - Thay đổi: DacBiet: True"
+    },
+    {
+        "timestamp": "2025-06-13T20:50:08.919545",
+        "action": "update",
+        "doc_id": "TL033",
+        "details": "Cập nhật tài liệu: Lập trình Web - Thay đổi: title: Lập trình Web, DacBiet: False"
+    },
+    {
+        "timestamp": "2025-06-13T22:33:32.502542",
+        "action": "update",
+        "doc_id": "TL033",
+        "details": "Cập nhật tài liệu: Lập trình di động - Thay đổi: title: Lập trình di động, DacBiet: True"
+    },
+    {
+        "timestamp": "2025-06-13T22:40:44.293334",
+        "action": "get_document_details",
+        "doc_id": "TL034",
+        "details": "Tài liệu TL034 đã bị xóa, không thể truy cập"
+    },
+    {
+        "timestamp": "2025-06-13T22:40:53.397026",
+        "action": "delete",
+        "doc_id": "TL033",
+        "details": "Xóa tài liệu: Lập trình di động"
+    },
+    {
+        "timestamp": "2025-06-13T22:40:54.692641",
+        "action": "get_document_details",
+        "doc_id": "TL033",
+        "details": "Tài liệu TL033 đã bị xóa, không thể truy cập"
+    },
+    {
+        "timestamp": "2025-06-13T22:40:57.026912",
+        "action": "get_document_details",
+        "doc_id": "TL033",
+        "details": "Tài liệu TL033 đã bị xóa, không thể truy cập"
+    },
+    {
+        "timestamp": "2025-06-13T22:41:09.497333",
+        "action": "restore",
+        "doc_id": "TL033",
+        "details": "Khôi phục tài liệu: Lập trình di động"
+    },
+    {
+        "timestamp": "2025-06-13T22:41:45.220729",
+        "action": "update",
+        "doc_id": "TL033",
+        "details": "Cập nhật tài liệu: Lập trình Web - Thay đổi: title: Lập trình Web, DacBiet: False"
+    },
+    {
+        "timestamp": "2025-06-13T22:45:49.992324",
+        "action": "update",
+        "doc_id": "TL033",
+        "details": "Cập nhật tài liệu: Lập trình Web - Thay đổi: SoLuong: 23"
+    },
+    {
+        "timestamp": "2025-06-17T15:46:09.913231",
+        "action": "add",
+        "doc_id": "TL036",
+        "details": "Thêm tài liệu: web"
+    }
+]

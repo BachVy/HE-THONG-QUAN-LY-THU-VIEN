@@ -1,0 +1,23 @@
+[
+    {
+        "type": "Sinh viên",
+        "annual_fee": 90000,
+        "max_books": 5,
+        "max_days": 10,
+        "special_document": false
+    },
+    {
+        "type": "Giảng viên/Cán bộ",
+        "annual_fee": 150000,
+        "max_books": 10,
+        "max_days": 30,
+        "special_document": true
+    },
+    {
+        "type": "Khách vãng lai",
+        "annual_fee": 50000,
+        "max_books": 2,
+        "max_days": 7,
+        "special_document": false
+    }
+]

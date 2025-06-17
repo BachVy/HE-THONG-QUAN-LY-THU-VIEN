@@ -1,0 +1,140 @@
+[
+    {
+        "timestamp": "2025-04-23T17:04:16.670033",
+        "action": "create_borrow",
+        "record_id": "BR00001",
+        "details": "Lập phiếu mượn cho độc giả DG00073"
+    },
+    {
+        "timestamp": "2025-05-06T14:17:07.285491",
+        "action": "create_borrow",
+        "record_id": "BR00002",
+        "details": "Lập phiếu mượn cho độc giả DG00065"
+    },
+    {
+        "timestamp": "2025-05-06T19:17:45.299479",
+        "action": "create_borrow",
+        "record_id": "BR00003",
+        "details": "Lập phiếu mượn cho độc giả DG00061"
+    },
+    {
+        "timestamp": "2025-05-06T19:57:48.580889",
+        "action": "delete_borrow",
+        "record_id": "BR00003",
+        "details": "Xóa phiếu mượn cho độc giả DG00061"
+    },
+    {
+        "timestamp": "2025-05-21T17:22:30.244316",
+        "action": "create_borrow",
+        "record_id": "BR00003",
+        "details": "Lập phiếu mượn cho độc giả DG00067"
+    },
+    {
+        "timestamp": "2025-05-21T17:23:41.798876",
+        "action": "create_return",
+        "record_id": "RT00001",
+        "details": "Lập phiếu trả cho phiếu mượn BR00003, Phí phạt: 0 VNĐ"
+    },
+    {
+        "timestamp": "2025-05-21T17:24:53.210544",
+        "action": "update_borrow",
+        "record_id": "BR00003",
+        "details": "Cập nhật phiếu mượn cho độc giả DG00067"
+    },
+    {
+        "timestamp": "2025-05-21T17:25:12.299685",
+        "action": "extend_borrow",
+        "record_id": "BR00003",
+        "details": "Gia hạn mượn đến 2025-06-27T17:22:30.222239"
+    },
+    {
+        "timestamp": "2025-05-21T17:33:43.654970",
+        "action": "create_return",
+        "record_id": "RT00002",
+        "details": "Lập phiếu trả cho phiếu mượn BR00003, Phí phạt: 0 VNĐ"
+    },
+    {
+        "timestamp": "2025-05-21T17:34:48.722019",
+        "action": "delete_return",
+        "record_id": "RT00002",
+        "details": "Xóa phiếu trả cho phiếu mượn BR00003"
+    },
+    {
+        "timestamp": "2025-05-21T17:35:22.531995",
+        "action": "create_return",
+        "record_id": "RT00002",
+        "details": "Lập phiếu trả cho phiếu mượn BR00003, Phí phạt: 0 VNĐ"
+    },
+    {
+        "timestamp": "2025-05-30T20:09:59.826429",
+        "action": "create_borrow",
+        "record_id": "BR00004",
+        "details": "Lập phiếu mượn cho độc giả DG00065"
+    },
+    {
+        "timestamp": "2025-05-30T20:10:27.605557",
+        "action": "create_return",
+        "record_id": "RT00003",
+        "details": "Lập phiếu trả cho phiếu mượn BR00004, Phí phạt: 0 VNĐ"
+    },
+    {
+        "timestamp": "2025-05-30T20:17:05.284843",
+        "action": "create_borrow",
+        "record_id": "BR00005",
+        "details": "Lập phiếu mượn cho độc giả DG00065"
+    },
+    {
+        "timestamp": "2025-05-30T20:31:37.516715",
+        "action": "create_return",
+        "record_id": "RT00004",
+        "details": "Lập phiếu trả cho phiếu mượn BR00005, Phí phạt: 0 VNĐ"
+    },
+    {
+        "timestamp": "2025-06-01T15:05:21.208236",
+        "action": "extend_borrow",
+        "record_id": "BR00002",
+        "details": "Gia hạn mượn đến 2025-05-23T14:17:07.262748"
+    },
+    {
+        "timestamp": "2025-06-13T12:00:39.823648",
+        "action": "create_borrow",
+        "record_id": "BR00006",
+        "details": "Lập phiếu mượn cho độc giả DG00013"
+    },
+    {
+        "timestamp": "2025-06-13T12:01:04.535039",
+        "action": "create_return",
+        "record_id": "RT00005",
+        "details": "Lập phiếu trả cho phiếu mượn BR00006, Phí phạt: 0 VNĐ"
+    },
+    {
+        "timestamp": "2025-06-13T13:04:20.125776",
+        "action": "create_borrow",
+        "record_id": "BR00007",
+        "details": "Lập phiếu mượn cho độc giả DG00067"
+    },
+    {
+        "timestamp": "2025-06-13T13:04:44.231179",
+        "action": "create_return",
+        "record_id": "RT00006",
+        "details": "Lập phiếu trả cho phiếu mượn BR00007, Phí phạt: 0 VNĐ"
+    },
+    {
+        "timestamp": "2025-06-13T23:30:04.505234",
+        "action": "extend_borrow",
+        "record_id": "BR00001",
+        "details": "Gia hạn mượn đến 2025-05-10T17:04:16.637963"
+    },
+    {
+        "timestamp": "2025-06-17T09:49:28.583048",
+        "action": "create_borrow",
+        "record_id": "BR00008",
+        "details": "Lập phiếu mượn cho độc giả DG00061"
+    },
+    {
+        "timestamp": "2025-06-17T09:50:14.473058",
+        "action": "create_return",
+        "record_id": "RT00007",
+        "details": "Lập phiếu trả cho phiếu mượn BR00008, Phí phạt: 0 VNĐ"
+    }
+]

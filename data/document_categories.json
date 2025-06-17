@@ -1,0 +1,22 @@
+[
+    {
+        "category_id": "DM001",
+        "name": "SÁCH"
+    },
+    {
+        "category_id": "DM002",
+        "name": "TẠP CHÍ"
+    },
+    {
+        "category_id": "DM003",
+        "name": "TÀI LIỆU THAM KHẢO"
+    },
+    {
+        "category_id": "DM004",
+        "name": "CÔNG TRÌNH NGHIÊN CỨU"
+    },
+    {
+        "category_id": "DM004",
+        "name": "LUẬN VĂN"
+    }
+]

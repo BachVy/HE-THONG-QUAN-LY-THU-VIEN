@@ -1,0 +1,7 @@
+Pillow
+fuzzywuzzy
+python-Levenshtein
+matplotlib
+requests
+beautifulsoup4
+selenium

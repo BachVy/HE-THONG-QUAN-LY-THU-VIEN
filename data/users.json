@@ -1,0 +1,832 @@
+[
+    {
+        "reader_id": "ADMIN",
+        "full_name": "Administrator",
+        "dob": null,
+        "address": null,
+        "phone": null,
+        "email": "admin@huit.edu.vn",
+        "id_card": null,
+        "student_id": null,
+        "employee_id": null,
+        "reader_type": "admin",
+        "max_days": 0,
+        "max_books": 0,
+        "special_document": false,
+        "password": "1",
+        "username": "1",
+        "role": "admin",
+        "status": "active",
+        "borrowed_books": 0,
+        "overdue_books": 0,
+        "fine_amount": 0,
+        "borrow_history": [],
+        "notifications": [],
+        "annual_fee_paid": true,
+        "expiry_date": null
+    },
+    {
+        "reader_id": "DG00073",
+        "full_name": "NGUYEN VAN B",
+        "dob": "1990-05-01",
+        "address": "123 Le Loi, Q1, HCM",
+        "phone": "0901234567",
+        "email": "vana@gmail.com",
+        "id_card": "123456789",
+        "student_id": "SV0001",
+        "employee_id": "",
+        "reader_type": "Giảng viên/Cán bộ",
+        "max_days": 30,
+        "max_books": 10,
+        "special_document": true,
+        "password": "DG00073123",
+        "username": "DG00073",
+        "role": "reader",
+        "status": "active",
+        "borrowed_books": 3,
+        "overdue_books": 0,
+        "fine_amount": 0,
+        "borrow_history": [
+            {
+                "book_id": "TL00001",
+                "borrow_date": "2025-04-20T20:48:31.936575",
+                "due_date": "2025-05-04T20:48:31.936575",
+                "return_date": null,
+                "status": "borrowed",
+                "fine": 0
+            },
+            {
+                "book_id": "TL001",
+                "borrow_date": "2025-04-23T17:04:16.637963",
+                "due_date": "2025-05-10T17:04:16.637963",
+                "return_date": null,
+                "status": "borrowed",
+                "fine": 0,
+                "extended": true
+            },
+            {
+                "book_id": "TL002",
+                "borrow_date": "2025-04-23T17:04:16.637963",
+                "due_date": "2025-05-10T17:04:16.637963",
+                "return_date": null,
+                "status": "borrowed",
+                "fine": 0,
+                "extended": true
+            }
+        ],
+        "update_history": [],
+        "notifications": [
+            {
+                "timestamp": "2025-04-23T17:04:16.654053",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL001. Ngày trả: 2025-05-03T17:04:16.637963",
+                "recipient_email": "vana@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-04-23T17:04:16.657014",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL002. Ngày trả: 2025-05-03T17:04:16.637963",
+                "recipient_email": "vana@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-13T15:17:18.256685",
+                "type": "account_suspended",
+                "message": "Tài khoản của bạn đã bị tạm khóa. Lý do: thích",
+                "recipient_email": "vana@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-13T15:17:41.720288",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "vana@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-13T15:17:54.884490",
+                "type": "account_restored",
+                "message": "Tài khoản của bạn đã được khôi phục thành công!",
+                "recipient_email": "vana@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-13T18:40:42.081930",
+                "type": "account_suspended",
+                "message": "Tài khoản của bạn đã bị tạm khóa. Lý do: thích",
+                "recipient_email": "vana@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-17T15:37:24.734115",
+                "type": "account_renewed",
+                "message": "Tài khoản của bạn đã được gia hạn thành công!",
+                "recipient_email": "vana@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-17T15:37:49.686104",
+                "type": "account_suspended",
+                "message": "Tài khoản của bạn đã bị tạm khóa. Lý do: thích",
+                "recipient_email": "vana@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-17T15:38:19.493399",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "vana@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-17T15:38:33.042449",
+                "type": "account_restored",
+                "message": "Tài khoản của bạn đã được khôi phục thành công!",
+                "recipient_email": "vana@gmail.com",
+                "status": "sent"
+            }
+        ],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-06-17T15:37:24.713627"
+    },
+    {
+        "reader_id": "DG00061",
+        "full_name": "NGUYỄN VĂN B",
+        "dob": "1980-01-01",
+        "address": "456 Tran Hung Dao, Q5, HCM",
+        "phone": "0987654321",
+        "email": "vanb@gmail.com",
+        "id_card": "987654321",
+        "student_id": null,
+        "employee_id": "CB000123",
+        "reader_type": "Giảng viên/Cán bộ",
+        "max_days": 30,
+        "max_books": 10,
+        "special_document": true,
+        "password": "DG00061123",
+        "username": "DG00061",
+        "role": "reader",
+        "status": "active",
+        "borrowed_books": 1,
+        "overdue_books": 1,
+        "fine_amount": 5000,
+        "borrow_history": [
+            {
+                "book_id": "TL00002",
+                "borrow_date": "2025-04-01T00:00:00",
+                "due_date": "2025-04-15T00:00:00",
+                "return_date": null,
+                "status": "borrowed",
+                "fine": 0
+            },
+            {
+                "book_id": "TL014",
+                "borrow_date": "2025-05-06T19:17:45.268002",
+                "due_date": "2025-06-05T19:17:45.268002",
+                "return_date": null,
+                "status": "cancelled",
+                "fine": 0
+            },
+            {
+                "book_id": "TL021",
+                "borrow_date": "2025-06-17",
+                "due_date": "2025-07-17",
+                "return_date": "2025-06-17",
+                "status": "returned",
+                "fine": 0
+            }
+        ],
+        "update_history": [],
+        "notifications": [
+            {
+                "timestamp": "2025-05-06T19:17:45.277868",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL014. Ngày trả: 2025-06-05T19:17:45.268002",
+                "recipient_email": "vanb@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-17T09:49:28.561249",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL021. Ngày trả: 2025-07-17",
+                "recipient_email": "vanb@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-17T09:50:14.437993",
+                "type": "book_returned",
+                "message": "Bạn đã trả sách TL021. Phí phạt: 0 VNĐ",
+                "recipient_email": "vanb@gmail.com",
+                "status": "sent"
+            }
+        ],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-04-20T06:21:00"
+    },
+    {
+        "reader_id": "DG00062",
+        "full_name": "TRẦN THỊ C",
+        "dob": "1995-05-15",
+        "address": "789 Nguyen Trai, Q5, HCM",
+        "phone": "0912345678",
+        "email": "thic@gmail.com",
+        "id_card": "123123123",
+        "student_id": "SV0002",
+        "employee_id": null,
+        "reader_type": "Sinh viên",
+        "max_days": 10,
+        "max_books": 5,
+        "special_document": false,
+        "password": "DG00062123",
+        "username": "DG00062",
+        "role": "reader",
+        "status": "active",
+        "borrowed_books": 0,
+        "overdue_books": 0,
+        "fine_amount": 0,
+        "borrow_history": [],
+        "update_history": [],
+        "notifications": [],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-04-20T06:21:00"
+    },
+    {
+        "reader_id": "DG00063",
+        "full_name": "LÊ VĂN D",
+        "dob": null,
+        "address": "101 Vo Van Tan, Q3, HCM",
+        "phone": "0923456789",
+        "email": "vand@gmail.com",
+        "id_card": "456456456",
+        "student_id": null,
+        "employee_id": null,
+        "reader_type": "Khách vãng lai",
+        "max_days": 7,
+        "max_books": 2,
+        "special_document": false,
+        "password": "DG00063123",
+        "username": "DG00063",
+        "role": "reader",
+        "status": "active",
+        "borrowed_books": 1,
+        "overdue_books": 0,
+        "fine_amount": 0,
+        "borrow_history": [
+            {
+                "book_id": "TL00003",
+                "borrow_date": "2025-04-15T00:00:00",
+                "due_date": "2025-04-22T00:00:00",
+                "return_date": null,
+                "status": "borrowed",
+                "fine": 0
+            }
+        ],
+        "update_history": [],
+        "notifications": [],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-04-20T06:21:00"
+    },
+    {
+        "reader_id": "DG00064",
+        "full_name": "PHẠM THỊ E",
+        "dob": "1985-10-20",
+        "address": "222 Ly Thuong Kiet, Q10, HCM",
+        "phone": "0934567890",
+        "email": "thie@gmail.com",
+        "id_card": "789789789",
+        "student_id": null,
+        "employee_id": "CB000124",
+        "reader_type": "Giảng viên/Cán bộ",
+        "max_days": 30,
+        "max_books": 10,
+        "special_document": true,
+        "password": "DG00064123",
+        "username": "DG00064",
+        "role": "reader",
+        "status": "suspended",
+        "borrowed_books": 0,
+        "overdue_books": 0,
+        "fine_amount": 0.0,
+        "borrow_history": [
+            {
+                "book_id": "TL00002",
+                "borrow_date": "2025-03-01T00:00:00",
+                "due_date": "2025-03-15T00:00:00",
+                "return_date": "2025-03-17T00:00:00",
+                "status": "returned",
+                "fine": 10000
+            }
+        ],
+        "update_history": [],
+        "notifications": [
+            {
+                "timestamp": "2025-06-01T10:07:17.919484",
+                "type": "account_renewed",
+                "message": "Tài khoản của bạn đã được gia hạn thành công!",
+                "recipient_email": "thie@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-01T10:28:56.975908",
+                "type": "account_suspended",
+                "message": "Tài khoản của bạn đã bị tạm khóa. Lý do: trễ hạn",
+                "recipient_email": "thie@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-06T16:23:08.697122",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "thie@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-06T16:23:19.540232",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "thie@gmail.com",
+                "status": "sent"
+            }
+        ],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-06-01T10:07:17.905479"
+    },
+    {
+        "reader_id": "DG00065",
+        "full_name": "HOÀNG VĂN F",
+        "dob": "1998-03-12",
+        "address": "333 Nguyen Dinh Chieu, Q3, HCM",
+        "phone": "0945678901",
+        "email": "vanf@gmail.com",
+        "id_card": "147258369",
+        "student_id": "SV0003",
+        "employee_id": null,
+        "reader_type": "Sinh viên",
+        "max_days": 10,
+        "max_books": 5,
+        "special_document": false,
+        "password": "DG00065123",
+        "username": "DG00065",
+        "role": "reader",
+        "status": "suspended",
+        "borrowed_books": 0,
+        "overdue_books": 2,
+        "fine_amount": 105000,
+        "borrow_history": [
+            {
+                "book_id": "TL018",
+                "borrow_date": "2025-05-06T14:17:07.262748",
+                "due_date": "2025-05-16T14:17:07.262748",
+                "return_date": "2025-05-30",
+                "status": "returned",
+                "fine": 65000
+            },
+            {
+                "book_id": "TL017",
+                "borrow_date": "2025-05-06T14:17:07.262748",
+                "due_date": "2025-05-23T14:17:07.262748",
+                "return_date": "2025-06-01",
+                "status": "returned",
+                "fine": 40000,
+                "extended": true
+            },
+            {
+                "book_id": "TL026",
+                "borrow_date": "2025-05-30",
+                "due_date": "2025-06-09",
+                "return_date": "2025-05-30",
+                "status": "returned",
+                "fine": 0
+            },
+            {
+                "book_id": "TL021",
+                "borrow_date": "2025-05-30",
+                "due_date": "2025-06-09",
+                "return_date": "2025-05-30",
+                "status": "returned",
+                "fine": 0
+            }
+        ],
+        "update_history": [],
+        "notifications": [
+            {
+                "timestamp": "2025-05-06T14:17:07.270731",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL018. Ngày trả: 2025-05-16T14:17:07.262748",
+                "recipient_email": "vanf@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-06T14:17:07.280491",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL017. Ngày trả: 2025-05-16T14:17:07.262748",
+                "recipient_email": "vanf@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-30T20:09:59.808997",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL026. Ngày trả: 2025-06-09",
+                "recipient_email": "vanf@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-30T20:10:27.578426",
+                "type": "book_returned",
+                "message": "Bạn đã trả sách TL026. Phí phạt: 0 VNĐ",
+                "recipient_email": "vanf@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-30T20:17:05.267463",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL021. Ngày trả: 2025-06-09",
+                "recipient_email": "vanf@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-30T20:31:37.487131",
+                "type": "book_returned",
+                "message": "Bạn đã trả sách TL021. Phí phạt: 0 VNĐ",
+                "recipient_email": "vanf@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-30T20:32:25.117467",
+                "type": "book_returned",
+                "message": "Bạn đã trả sách TL018. Phí phạt: 65000 VNĐ",
+                "recipient_email": "vanf@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-01T19:48:04.757813",
+                "type": "book_returned",
+                "message": "Bạn đã trả sách TL017. Phí phạt: 40000 VNĐ",
+                "recipient_email": "vanf@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-01T20:00:36.104436",
+                "type": "account_suspended",
+                "message": "Tài khoản của bạn đã bị tạm khóa. Lý do: chưa thanh toán phí phạt",
+                "recipient_email": "vanf@gmail.com",
+                "status": "sent"
+            }
+        ],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-04-20T06:21:00"
+    },
+    {
+        "reader_id": "DG00066",
+        "full_name": "ĐỖ THỊ G",
+        "dob": null,
+        "address": "444 Pasteur, Q3, HCM",
+        "phone": "0956789012",
+        "email": "thig@gmail.com",
+        "id_card": "258369147",
+        "student_id": null,
+        "employee_id": null,
+        "reader_type": "Khách vãng lai",
+        "max_days": 7,
+        "max_books": 2,
+        "special_document": false,
+        "password": "DG00066123",
+        "username": "DG00066",
+        "role": "reader",
+        "status": "active",
+        "borrowed_books": 0,
+        "overdue_books": 0,
+        "fine_amount": 0,
+        "borrow_history": [],
+        "update_history": [],
+        "notifications": [
+            {
+                "timestamp": "2025-06-01T12:44:06.867429",
+                "type": "account_restored",
+                "message": "Tài khoản của bạn đã được khôi phục thành công!",
+                "recipient_email": "thig@gmail.com",
+                "status": "sent"
+            }
+        ],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-06-01T12:44:06.851304"
+    },
+    {
+        "reader_id": "DG00067",
+        "full_name": "BÙI VĂN F",
+        "dob": "1975-07-30",
+        "address": "555 CMT8, Q10, HCM",
+        "phone": "0967890123",
+        "email": "vanh@gmail.com",
+        "id_card": "369147258",
+        "student_id": null,
+        "employee_id": "CB000125",
+        "reader_type": "Giảng viên/Cán bộ",
+        "max_days": 30,
+        "max_books": 10,
+        "special_document": true,
+        "password": "DG00067123",
+        "username": "DG00067",
+        "role": "reader",
+        "status": "active",
+        "borrowed_books": 0,
+        "overdue_books": 0,
+        "fine_amount": 0,
+        "borrow_history": [
+            {
+                "book_id": "TL001",
+                "borrow_date": "2025-05-21T17:22:30.222239",
+                "due_date": "2025-06-20T17:22:30.222239",
+                "return_date": "2025-05-21T17:23:41.779554",
+                "status": "returned",
+                "fine": 0
+            },
+            {
+                "book_id": "TL002",
+                "borrow_date": "2025-05-21T17:22:30.222239",
+                "due_date": "2025-06-20T17:22:30.222239",
+                "return_date": null,
+                "status": "cancelled",
+                "fine": 0
+            },
+            {
+                "book_id": "TL004",
+                "borrow_date": "2025-05-21T17:22:30.222239",
+                "due_date": "2025-06-27T17:22:30.222239",
+                "return_date": "2025-05-21T17:35:22.502970",
+                "status": "returned",
+                "fine": 0,
+                "extended": true
+            },
+            {
+                "book_id": "TL021",
+                "borrow_date": "2025-06-13",
+                "due_date": "2025-07-13",
+                "return_date": "2025-06-13",
+                "status": "returned",
+                "fine": 0
+            }
+        ],
+        "update_history": [],
+        "notifications": [
+            {
+                "timestamp": "2025-05-21T17:22:30.226686",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL001. Ngày trả: 2025-06-20T17:22:30.222239",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-21T17:22:30.236270",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL002. Ngày trả: 2025-06-20T17:22:30.222239",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-21T17:23:41.784435",
+                "type": "book_returned",
+                "message": "Bạn đã trả sách TL001. Phí phạt: 0 VNĐ",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-21T17:24:53.199619",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL004. Ngày trả: 2025-06-20T17:22:30.222239",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-21T17:33:43.642200",
+                "type": "book_returned",
+                "message": "Bạn đã trả sách TL004. Phí phạt: 0 VNĐ",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-05-21T17:35:22.508680",
+                "type": "book_returned",
+                "message": "Bạn đã trả sách TL004. Phí phạt: 0 VNĐ",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-13T13:04:20.107273",
+                "type": "book_borrowed",
+                "message": "Bạn đã mượn sách TL021. Ngày trả: 2025-07-13",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-13T13:04:44.213639",
+                "type": "book_returned",
+                "message": "Bạn đã trả sách TL021. Phí phạt: 0 VNĐ",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-14T16:04:44.604030",
+                "type": "account_suspended",
+                "message": "Tài khoản của bạn đã bị tạm khóa. Lý do: thích",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-14T16:05:02.862549",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-14T16:05:22.539235",
+                "type": "account_restored",
+                "message": "Tài khoản của bạn đã được khôi phục thành công!",
+                "recipient_email": "vanh@gmail.com",
+                "status": "sent"
+            }
+        ],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-04-20T06:21:00"
+    },
+    {
+        "reader_id": "DG00010",
+        "full_name": "BACH VY",
+        "dob": "2005-11-25",
+        "address": "102 nqa",
+        "phone": "0987658320",
+        "email": "bachvy@gmail.com",
+        "id_card": "060305009874",
+        "student_id": "2001231067",
+        "employee_id": null,
+        "reader_type": "sinh viên",
+        "max_days": 10,
+        "max_books": 5,
+        "special_document": false,
+        "password": "DG00010123",
+        "status": "active",
+        "borrowed_books": 0,
+        "overdue_books": 0,
+        "borrow_history": [],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-05-26T15:50:55.144920",
+        "fine_amount": 0,
+        "update_history": [],
+        "role": "reader",
+        "username": "DG00010"
+    },
+    {
+        "reader_id": "DG00011",
+        "full_name": "NGỌC VY BẠCH",
+        "dob": "2005-02-28",
+        "address": "102 nqa",
+        "phone": "0385593277",
+        "email": "vy@gmail.com",
+        "id_card": "060704008744",
+        "student_id": "2001231089",
+        "employee_id": "",
+        "reader_type": "Khách vãng lai",
+        "max_days": 7,
+        "max_books": 2,
+        "special_document": false,
+        "password": "DG00011123",
+        "status": "active",
+        "borrowed_books": 0,
+        "overdue_books": 0,
+        "borrow_history": [],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-05-26T16:16:52.281710",
+        "fine_amount": 0,
+        "update_history": [],
+        "role": "reader",
+        "username": "DG00011",
+        "notifications": [
+            {
+                "timestamp": "2025-06-01T11:30:49.157843",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "vy@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-01T11:36:43.980270",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "vy@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-01T11:45:31.578942",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "vy@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-01T12:26:42.741858",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "vy@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-01T12:27:00.736024",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "vy@gmail.com",
+                "status": "sent"
+            }
+        ]
+    },
+    {
+        "reader_id": "DG00012",
+        "full_name": "PHUNG THI LY",
+        "dob": "2005-11-25",
+        "address": "102 tqc",
+        "phone": "0987654321",
+        "email": "vy@gmail.com",
+        "id_card": "098765483951",
+        "student_id": "200123106",
+        "employee_id": null,
+        "reader_type": "sinh viên",
+        "max_days": 10,
+        "max_books": 5,
+        "special_document": false,
+        "password": "DG00012123",
+        "status": "active",
+        "borrowed_books": 0,
+        "overdue_books": 0,
+        "borrow_history": [],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-05-30T09:50:24.762951",
+        "fine_amount": 0,
+        "update_history": [],
+        "role": "reader",
+        "username": "DG00012",
+        "notifications": [
+            {
+                "timestamp": "2025-06-13T19:15:56.731728",
+                "type": "account_suspended",
+                "message": "Tài khoản của bạn đã bị tạm khóa. Lý do: thích",
+                "recipient_email": "vy@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-13T19:40:03.716225",
+                "type": "update",
+                "message": "Thông tin độc giả của bạn đã được cập nhật",
+                "recipient_email": "vy@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-13T19:49:04.053116",
+                "type": "account_restored",
+                "message": "Tài khoản của bạn đã được khôi phục thành công!",
+                "recipient_email": "vy@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-13T19:49:48.685472",
+                "type": "account_suspended",
+                "message": "Tài khoản của bạn đã bị tạm khóa. Lý do: thích",
+                "recipient_email": "vy@gmail.com",
+                "status": "sent"
+            },
+            {
+                "timestamp": "2025-06-13T19:50:02.767985",
+                "type": "account_restored",
+                "message": "Tài khoản của bạn đã được khôi phục thành công!",
+                "recipient_email": "vy@gmail.com",
+                "status": "sent"
+            }
+        ]
+    },
+    {
+        "reader_id": "DG00013",
+        "full_name": "BNV",
+        "dob": "2005-11-25",
+        "address": "Tân Phú, TP. HCM",
+        "phone": "0987325678",
+        "email": "bVy@gmail.com",
+        "id_card": "030605006749",
+        "student_id": "2001231068",
+        "employee_id": null,
+        "reader_type": "sinh viên",
+        "max_days": 10,
+        "max_books": 5,
+        "special_document": false,
+        "password": "DG00013123",
+        "status": "active",
+        "borrowed_books": 0,
+        "overdue_books": 0,
+        "borrow_history": [],
+        "annual_fee_paid": true,
+        "expiry_date": "2026-06-16T12:11:29.272692",
+        "fine_amount": 0,
+        "update_history": [],
+        "role": "reader",
+        "username": "DG00013"
+    }
+]
