@@ -32,7 +32,7 @@ LIBRARY/
 │   ├── library_system.py
 │   ├── login_register.py
 │   ├── reader_manager.py
-│   └── main.py
+├──main.py
 ├── main.spec
 └── requirements.txt
 ```
@@ -50,7 +50,7 @@ LIBRARY/
   - **`library_system.py`**: Main system logic and GUI implementation.
   - **`login_register.py`**: Manages user authentication and registration.
   - **`reader_manager.py`**: Oversees reader management operations.
-  - **`main.py`**: Application entry point.
+- **`main.py`**: Application entry point.
 - **`main.spec`**: PyInstaller configuration for building the executable.
 - **`requirements.txt`**: Lists Python package dependencies.
 
@@ -82,7 +82,7 @@ LIBRARY/
    ```
 4. Launch the application:
    ```
-   python src/main.py
+   python main.py
    ```
    Alternatively, use the pre-built `main.exe` in `dist/`.
 
@@ -98,7 +98,7 @@ LIBRARY/
 Contributions are encouraged! Fork the repository and submit pull requests for improvements or bug fixes.
 
 ## License
-Distributed under the MIT License. Refer to the `LICENSE` file for more details (if included).
+No License
 
 ## Contact
-For support or issues, please create an issue on the repository or reach out to the maintainers.
+For support or issues, please create an issue on the repository
